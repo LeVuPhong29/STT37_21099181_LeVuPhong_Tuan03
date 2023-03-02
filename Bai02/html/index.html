@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #main {
+            width: 470px;
+            margin: auto;
+            box-shadow: 0 0 10px #bcbcbc;
+        }
+
+        .text1 {
+            text-indent: 1cm;
+            color: red;
+        }
+
+        .text2 {
+            text-align: right;
+            color: blue;
+        }
+
+        .text3 {
+            text-align: right;
+            color: green;
+        }
+
+        .text4 {
+            text-align: left;
+            color: brown;
+        }
+
+        .text5 {
+            text-decoration: underline;
+            color: pink;
+        }
+
+        .text6 {
+            text-decoration: line-through;
+            color: purple;
+        }
+
+        .text7 {
+            text-decoration:overline;
+            color: red;
+        }
+
+        .text8 {
+            text-decoration: blink;
+            text-align: justify;
+            color: blue;
+            text-shadow: 4px 4px 8px blue;
+        }
+
+        ul li {
+            list-style-type: none;
+            display: inline;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 20px;
+            color: #761e79;
+        }
+
+        .box2 {
+            border: 2px solid rgb(64, 5, 40);
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        a)
+        <p class="text1">
+            <b>Thiết lập chế độ độ thụt đầu dòng cho 1 đoạn văn bản. Thuộc tính này có thể gán giá 
+                trị là tỉ lệ % hoặc một số cụ thể. Thiết lập chế độ độ thụt đầu dòng cho 1 đoạn văn bản. 
+                Thuộc tính này có thể gán giá trị là tỉ lệ % hoặc một số cụ thể.</b>
+        </p>
+
+        <p class="text2">
+            <b>Thuộc tính text-align:right; dùng để canh lề phải đoạn văn bản.</b>
+        </p>
+
+        <p class="text3">
+            <b>Thuộc tính text-align:center; dùng để canh giữa đoạn văn bản.</b>
+        </p>
+
+        <p class="text4">
+            Thuộc tính text-decoration:underline; sẽ gạch dưới đoạn văn bản.
+        </p>
+
+        <p class="text5">
+            <b>Thuộc tính text-decoration:underline; sẽ gạch dưới đoạn văn bản.</b>
+        </p>
+
+        <p class="text6">
+            <b>Thuộc tính text-decoration:line-through; sẽ gạch ngang đoạn văn bản.</b>
+        </p>
+        <p class="text7">
+            <b>Thuộc tính text-decoration:overline; sẽ gạch trên đoạn văn bản.</b>
+        </p>
+
+        <p class="text8">
+            <b>Thuộc tính text-decoration:blink; sẽ tạo hiệu ứng blink cho đoạn văn bản + thuộc tính 
+                text-shadow:4px 4px 8px blue;tạo bóng cho chữ.</b>
+        </p>
+        b)
+        <div class="box2">
+            <ul>
+                <li style="text-decoration: blink; text-shadow: 2px 4px 2px green; color: black;"><b>Colorful Style</b></li>
+                <li style="background-color: #d3b4ac;"><b>Insert Effect</b></li>
+                <li style="text-decoration: blink; text-shadow: 0px -10px 0px #cb3083; color: black;"><b>Double Font</b></li>
+            </ul>
+
+            <ul>
+                <li style=""><b>Glossy Style</b></li>
+                <li style="background-color: black; color: red; text-shadow: 5px 5px 10px rgba(204, 33, 33, 0.4);"><b>Grunge Style</b></li>
+                <li style="background-color: #000338; color: #3b8aff;"><b>Neon Glow</b></li>
+            </ul>
+        </div>
+
+        <div style="background-color: #7b207d;">
+            <h1 style="text-align: center; color: white;">Cool CSS Text Effects</h1>
+        </div>
+    </div>
+</body>
+</html>
